@@ -356,7 +356,7 @@ a{
 }
 .contab{
     width: 300px;
-    height: 350px;
+    height: 200px;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
@@ -371,18 +371,15 @@ a{
     margin: 30px;
 }
 .conimg{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border: 2px solid aqua;
-    margin: 15px;
+    width: 0px;
+    height: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 .conimg img{
-    width: 150px;
+    width: 0px;
 }
 .coname{
     width: 100%;
@@ -433,6 +430,133 @@ a{
     flex-wrap: wrap;
 }
 @media only screen and (max-width:1000px){
+    .prizebox a .rgstrbtn{
+        position: absolute;
+        width: 250px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 25px;
+        font-weight: 700;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);    
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;    
+        transform: translate3d(-350px,100px,0px) scale(2);
+    
+    }
+    .prizetab{
+        width: 1000px;
+        height: 1000px;
+        background: skyblue;
+        border-radius: 20px;
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);    
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 20px;
+    }
+    .prizetab img{
+        width: 100%;
+        height: 100%;
+    }
+    .prizetext{
+        width: 780px;
+        font-size: 55px;
+        padding: 10px 15px;
+        font-weight: 700;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transform: translateX(70px) translateY(-200px);
+        margin-top: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .prizeimg{
+        transform: scale(1.5) translate3d(0px,0px,0px);
+        left: 40%;
+    }
+    .prizebox{
+        width: 950px;
+        height: 1700px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        flex-wrap: wrap;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);    display: flex;
+        overflow: visible;
+        border-radius: 20px;
+        border-top-left-radius: 30px;
+    
+    }
+    .conbox{
+        width: 1100px;
+        /* height: 400px; */
+        /* background: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .conimg{
+        width: 0px;
+        height: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .coname{
+        font-size: 80px;
+    }
+    .conum{
+        font-size: 70px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .about{
+        font-size: 50px;
+        background: rgba(255, 255, 255, 0.2);
+        width: 850px;
+    }
+    .headbox{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+    .contab{
+        width: 1000px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.2);
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-top: 5px solid white;
+        border-left: 5px solid white;
+
+
+    }
     .content{
         width: 1000px;
         padding-bottom: 100px;
@@ -485,4 +609,102 @@ a{
         font-weight: 600;
         color: rgba(255, 255, 255, 0.5);
     }
+    .bannerbox{
+        width: 950px;
+        height: 1500px;
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .b1 .bannerimage{
+        width: 1000px;
+        transform: translate3d(0px,0px,0px) scale(2);
+    }
+    .b2 .bannerimage{
+        width: 1000px;
+        transform: translate3d(0px,0px,0px) scale(2);
+    }
+    .b3 .bannerimage{
+        width: 1000px;
+        transform: translate3d(0px,0px,0px) scale(2);
+    }
+    .b4 .bannerimage{
+        width: 1000px;
+        transform: translate3d(0px,0px,0px) scale(2);
+    }
+    .b0{
+        background-color: rgba(0, 0, 0, 0.2) scale(2);
+    }
+    .bannerimg{
+        width: 1000px;
+        height: 400px;
+        background: black;
+        position: absolute;
+        transform: translate3d(0px,0px,0px) scale(1.9);
+        box-shadow: 0px 50px 50px black,
+        0px 100px 50px rgba(0, 0, 0, 0.8),
+        0px 300px 100px rgba(0, 0, 0, 0.3);
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .b1{
+        background: white;
+    }
+    .b2{
+        background: white;
+    }
+    .b3{
+        background: #7CE7A3;
+    
+    }
+    .b4{
+        background: #0E0348;
+    }
+    .bannertext{
+        font-size: 100px;
+        transform: translateY(700px);
+        background-color: darkblue;
+    }
+    .tagline{
+        z-index: 1;
+        width: 900px;
+        font-size: 50px;
+        transform: translateY(1000px);
+
+    }
+    .b2 .tagline{
+        transform: translateY(950px);
+    }
+    .bannerbox .rgstrbtn{
+        transform: translateY(1250px) scale(2.5) translateX(100px);
+        height: 40px;
+    }
+    .clr1{
+        position: fixed;
+        filter: blur(150px);
+        top: 50px;
+        width: 600px;
+        height: 600px;
+        background: #ff359b;
+        }
+        .clr2{
+        position: fixed;
+        filter: blur(150px);
+        bottom: 50px;
+        left: 200px;
+        width: 500px;
+        height: 500px;
+        background: #fffd87;
+        }
+        .clr3{
+        position: fixed;
+        filter: blur(150px);
+        bottom: 700px;
+        right: 100px;
+        width: 300px;
+        height: 300px;
+        background: #00d2ff;
+        }
+        
 }
