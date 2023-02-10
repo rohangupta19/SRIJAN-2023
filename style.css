@@ -213,6 +213,10 @@ a{
     height: 450px;
     background: skyblue;
     border-radius: 20px;
+    background-image: url(https://cdn.dribbble.com/users/720738/screenshots/14260851/trophee_zidler.png?compress=1&resize=400x300);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
