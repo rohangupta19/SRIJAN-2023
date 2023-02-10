@@ -611,6 +611,7 @@ a{
     }
     .bannerbox{
         width: 90%;
+        margin: 10%;
         height: 1500px;
         background: rgba(255, 255, 255, 0.2);
     }
